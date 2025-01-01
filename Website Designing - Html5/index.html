@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
+</head>
+<body>
+    <!-- Registration Form Container -->
+    <div class="form-container">
+        <h1>Student Registration Form</h1>
+        <form id="registrationForm" onsubmit="return validateForm()">
+            <!-- Name Field -->
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Enter your name" 
+                    class="input-field" 
+                    required
+                >
+            </div>
+
+            <!-- Mobile Field -->
+            <div class="form-group">
+                <label for="mobile">Mobile:</label>
+                <input 
+                    type="text" 
+                    id="mobile" 
+                    name="mobile" 
+                    placeholder="Enter your mobile number" 
+                    class="input-field" 
+                    required
+                >
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- JavaScript for Form Validation -->
+    <script>
+        function validateForm() {
+            const name = document.getElementById('name').value;
+            const mobile = document.getElementById('mobile').value;
+
+            // Validate Name Field
+            const namePattern = /^[a-zA-Z]{3,6}$/;
+            if (!namePattern.test(name)) {
+                alert('Name must contain 3 to 6 alphabets only.');
+                return false;
+            }
+
+            // Validate Mobile Field
+            const mobilePattern = /^[0-9]{10}$/;
+            if (!mobilePattern.test(mobile)) {
+                alert('Mobile number must contain exactly 10 digits.');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>
