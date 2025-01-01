@@ -1,0 +1,83 @@
+@media (max-width:600px) {
+    .main-nav{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-APR-Promo-Hero-Tablet-v3_600px_img_1.avif);
+        background-position: center;
+        background-size: cover;
+      
+    }
+
+    .section_1{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-Model-Y-Mobile-US-v2_600px_img_2.avif);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section_2{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-Model-3-Mobile-US_600px_img_3.avif);
+        background-position: center;
+        background-size: cover;
+    }
+    .section_3{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-Model-X-Mobile-US_600px_img_4.avif);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section_4{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-Model-S-Mobile-US_600px_img_5.avif);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section_5{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-Cybertruck-Mobile-v3_600px_img_6.avif);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .section_6{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-SolarPanels-01-Mobile_600px_img_7.avif);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .section_7{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-SolarRoof-Mobile-US_600px_img_8.avif);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .section_8{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-Powerwall-Mobile-US_600px_img_9.avif);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .section_9{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-Accessories-Mobile-US_600px_img_10.avif);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    
+}
