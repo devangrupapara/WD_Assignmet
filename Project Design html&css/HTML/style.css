@@ -1,0 +1,635 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-nav{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/img-1.avif );
+    background-position: center;
+    background-size: cover;
+  
+}
+
+@media (max-width:600px) {
+    .main-nav{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../IMG/Homepage-APR-Promo-Hero-Tablet-v3_600px_img_1.avif);
+        background-position: center;
+        background-size: cover;
+      
+    }
+    
+}
+.tesla_logo{
+    color: white;
+}
+.tesla_logo {
+    height: 70px;
+    width:100px;
+    background-image: url(../IMG/tasla_3-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    /* height: 60px; */
+    width: auto;
+    background-color:#fff;
+
+}
+
+.section_1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/img-2.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.section_2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/img-3.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.section_3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/img-4.avif);
+    background-position: center;
+    background-size: cover;
+}
+.section_4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/img-5.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.section_5{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/img-6.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.section_6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/img-7.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.section_7{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/img-8.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.section_8{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/img-9.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.section_9{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/img-10.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.section_10{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    height: 100vh;
+    width: 100%;
+}
+
+.img_1{
+    height: 100px;
+    width: 130px;
+    background-image: url(../IMG/Mega-Menu-Vehicles-Model-S.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.modal_car_1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_2{
+    height: 100px;
+    width: 130px;
+    background-image: url(../IMG/Mega-Menu-Vehicles-Model-3-Performance-LHD.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.modal_car_2{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_3{
+    height: 100px;
+    width: 130px;
+    background-image: url(../IMG/Mega-Menu-Vehicles-Model-X.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.modal_car_3{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_4{
+    height: 100px;
+    width: 130px;
+    background-image: url(../IMG/Mega-Menu-Vehicles-Model-Y.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.modal_car_4{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_5{
+    height: 100px;
+    width: 130px;
+    background-image: url(../IMG/Mega-Menu-Vehicles-Cybertruck-1x.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.modal_car_5{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_6{
+    height: 100px;
+    width: 130px;
+    background-image: url(../IMG/Mega-Menu-Vehicles-HMC-RedBlue-LHD.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.modal_car_6{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vehicles{
+    height: 450px;  
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+   position: absolute;
+   top: 70px;
+   left: 0px;
+   background-color:#fff;
+   display: none;
+
+}
+/* 
+.sub:hover + .vehicles{
+    display: block;
+} */
+
+.mani_contan{
+    height: auto;
+    width: 700px;
+}
+.mani_contan_2{
+    height: auto;
+    width: 200px;   
+    margin: 10px;
+    /* background:  red; */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 2px solid gray;
+    padding-left: 20px;
+}
+
+
+.energy{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 70px;
+    left: 0px;
+    display: none;
+    background-color: #fff;
+}
+
+
+
+.energy-1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.energy_div_1{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.energy_div_2{
+    height: 350px;
+    width: 250px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    border-left: 2px solid gray;
+    padding: 20px;
+}
+
+
+.main_energy{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.energy_img_1{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Energy-Solar-Panels.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main_energy_2{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.energy_img_2{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Energy-Solar-Roof.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main_energy_3{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.energy_img_3{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Energy-Powerwall-US.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main_energy_4{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.energy_img_4{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Energy-Megapack.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* .li_energy:hover + .energy{
+   display: block;
+} */
+
+
+.main_charging{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    background-color: #fff;
+    display: none;
+}
+.charging{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+}
+
+.charging-1{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.charging_img_1{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Charging-Charging.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.charging-2{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.charging_img_2{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Charging-Home-Charging.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.charging-3{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.charging_img_3{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Charging-Supercharging-NA.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.charging-4{
+    height: 350px;
+    width: 250px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    border-left: 2px solid gray;
+    padding: 20px;
+}
+
+/* 
+.li_charging:hover + .main_charging{
+    display: block;
+} */
+
+
+
+.main_shop{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left:0px;
+    background-color:#fff;
+    display: none;
+}
+
+.shop{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.shop_1{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.shop_img_1{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Shop-Charging-2.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.shop_2{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.shop_img_2{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Shop-Vehicle-Accessories.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.shop_3{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.shop_img_3{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Shop-Apparel.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.shop_4{
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.shop_img_4{
+    height: 100px;
+    width: 230px;
+    background-image: url(../IMG/Mega-Menu-Shop-Lifestyle.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-color: transparent;
+}
+
+ /* .li_shop:hover + .main_shop{
+    display: block;
+ } */
+
+.main_discpver{
+    height: 350px;
+    width: 100%;
+    display: none;
+    justify-content: space-evenly;
+    text-align: left;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+ 
+.discover{
+    height: 350px;
+    width: 100%;
+    display: flex;
+   
+    margin: 0px;
+    background:#fff;
+    /* display: none; */
+}
+
+/* .li_discover:hover + .main_discpver{
+    display: block;
+} */
+
+.phone_div{
+    height: 260px;
+    width:100%;
+    position: absolute;
+    top: 90x;
+    left: 0px;
+    background-color: #fff;
+    display: none;
+    padding-left: 40px;
+}
+
+
+.button{
+  padding: 10px 25px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.235);
+  border-radius: 10px;
+}
+
+.button:hover{
+    background-color: royalblue;
+    color: #fff;
+}
+
+li:hover{
+    letter-spacing: 1px;
+}
